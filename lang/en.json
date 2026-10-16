@@ -1,0 +1,27 @@
+{
+  "PB.Settings.Enabled.Name": "Enable dice swap (5e)",
+  "PB.Settings.Enabled.Hint": "Swaps the digits of the d100 roll to the better order (63 → 36). Disabling restores the plain system rules — rolls already made are untouched.",
+
+  "PB.Settings.Mode.Name": "Mode",
+  "PB.Settings.Mode.Hint": "'Option in the test dialog': every test dialog gets a 'Swap dice' checkbox (like Charging) — tick it when the roll should use the swap. 4th edition Advantage works unchanged. 'Binary Advantage': the swap applies automatically whenever the character has Advantage and by default replaces the +10 per point bonus.",
+  "PB.Settings.Mode.Manual": "Option in the test dialog (4e Advantage unchanged)",
+  "PB.Settings.Mode.Auto": "Binary Advantage 5e (replaces 4e)",
+
+  "PB.Settings.KeepSystemBonus.Name": "Keep the system's Advantage bonus",
+  "PB.Settings.KeepSystemBonus.Hint": "Binary Advantage mode only. By default the digit swap REPLACES the system's Advantage bonus (+10 per point, or +1 SL under the 'Advantage' house rule). Enable to run both at once and compare the variants. Note: with Group Advantage on, the system disables Auto Fill Advantage by itself, so there is no bonus regardless of this setting.",
+
+  "PB.Settings.Scope.Name": "Test scope",
+  "PB.Settings.Scope.Hint": "Binary Advantage mode only. Which tests the digit swap covers. 'Combat and opposed tests' means weapon and trait attacks, defending in an opposed test, and any test made against a target. Outside the scope Advantage works as in 4th edition (+10 bonus).",
+  "PB.Settings.Scope.Combat": "Combat and opposed tests",
+  "PB.Settings.Scope.All": "All tests",
+
+  "PB.Settings.ChatNote.Name": "Note on the test card",
+  "PB.Settings.ChatNote.Hint": "Adds a line to the result card with the original and final roll when this module caused the swap. Swaps coming from talents and system effects (Gossip, Research, Consume Alcohol) are not labelled.",
+
+  "PB.Dialog.Reverse": "Swap dice",
+  "PB.Dialog.ReverseHint": "If the reversed order of the d100 digits gives a better result (63 → 36), the reversed roll counts.",
+
+  "PB.Chat.Swapped": "<strong>Dice swap</strong>: {orig} → {roll}.",
+
+  "PB.Warn.FastSL": "Dice swap: with the 'Fast SL' success level method the system treats the HIGHER successful roll as better, so the digit swap works the opposite way to the announced 5e rule (e.g. 38 → 83). The default SL method is recommended."
+}

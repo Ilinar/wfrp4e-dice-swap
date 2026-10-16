@@ -1,0 +1,27 @@
+{
+  "PB.Settings.Enabled.Name": "Włącz zamianę kości (5ed)",
+  "PB.Settings.Enabled.Hint": "Zamiana cyfr rzutu k100 na korzystniejszą kolejność (63 → 36). Wyłączenie przywraca czyste zasady systemu — rzuty już wykonane pozostają bez zmian.",
+
+  "PB.Settings.Mode.Name": "Tryb",
+  "PB.Settings.Mode.Hint": "„Opcja w oknie testu”: w oknie każdego testu pojawia się pole „Zamiana kości” (jak Szarża) — zaznaczasz je, gdy rzut ma być z zamianą. Przewaga z 4. edycji działa bez zmian. „Przewaga binarna”: zamiana działa sama, gdy postać ma Przewagę, i domyślnie zastępuje bonus +10 za punkt.",
+  "PB.Settings.Mode.Manual": "Opcja w oknie testu (Przewaga 4ed bez zmian)",
+  "PB.Settings.Mode.Auto": "Przewaga binarna 5ed (zastępuje 4ed)",
+
+  "PB.Settings.KeepSystemBonus.Name": "Zachowaj systemowy bonus z Przewagi",
+  "PB.Settings.KeepSystemBonus.Hint": "Tylko w trybie „Przewaga binarna”. Domyślnie zamiana cyfr ZASTĘPUJE systemowy bonus z Przewagi (+10 za punkt, albo +1 PS przy regule domowej „Przewaga”). Włącz, aby oba działały naraz i dało się porównać warianty. Uwaga: przy włączonej Przewadze grupowej system sam wyłącza automatyczne wypełnianie Przewagi, więc bonusu nie ma niezależnie od tego ustawienia.",
+
+  "PB.Settings.Scope.Name": "Zakres testów",
+  "PB.Settings.Scope.Hint": "Tylko w trybie „Przewaga binarna”. Które testy obejmuje zamiana cyfr. „Walka i testy przeciwstawne” to ataki bronią i cechą, obrona w teście przeciwstawnym oraz każdy test wykonany na cel. Poza zakresem Przewaga działa jak w 4. edycji (bonus +10).",
+  "PB.Settings.Scope.Combat": "Walka i testy przeciwstawne",
+  "PB.Settings.Scope.All": "Wszystkie testy",
+
+  "PB.Settings.ChatNote.Name": "Dopisek na karcie testu",
+  "PB.Settings.ChatNote.Hint": "Dopisuje na karcie wyniku linijkę z rzutem pierwotnym i końcowym, gdy zamiany dokonał ten moduł. Zamiany pochodzące z talentów i efektów systemu (Plotkowanie, Badania, Konsumpcja alkoholu) nie są opisywane.",
+
+  "PB.Dialog.Reverse": "Zamiana kości",
+  "PB.Dialog.ReverseHint": "Jeśli odwrócona kolejność cyfr k100 daje lepszy wynik (63 → 36), liczy się odwrócona.",
+
+  "PB.Chat.Swapped": "<strong>Zamiana kości</strong>: {orig} → {roll}.",
+
+  "PB.Warn.FastSL": "Zamiana kości: przy trybie poziomów sukcesu „Szybki PS” system uznaje za lepszy WYŻSZY udany rzut, więc zamiana cyfr działa odwrotnie niż w zapowiedzi 5ed (np. 38 → 83). Zalecany domyślny tryb poziomów sukcesu."
+}
